@@ -3,6 +3,7 @@
 
 #include "Ship.h"
 
+#include "BulletController.h"
 #include "../../Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/printf.h"
 #include "Components/BoxComponent.h"
 #include "Components/ShapeComponent.h"
@@ -60,6 +61,26 @@ void AShip::MoveForward(float Value)
 	{
 		AddMovementInput(GetActorForwardVector(), Value);
 	}
+}
+
+void AShip::StartFire()
+{
+	Fire();
+	GetWorld()->GetTimerManager().SetTimer(FireTimer, this, &AShip::Fire, FireRate, true);
+}
+
+void AShip::Fire()
+{
+	UWorld* World = GetWorld();
+	if(World)
+	{
+		World->SpawnActor<ABulletController>(Bullet, GetActorLocation(), FRotator::ZeroRotator);
+	}
+}
+
+void AShip::EndFire()
+{
+	GetWorld()->GetTimerManager().ClearTimer(FireTimer);
 }
 
 

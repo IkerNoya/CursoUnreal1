@@ -23,12 +23,17 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement)
 	UPawnMovementComponent* PawnMovementComponent;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	float FireRate= 0.5f;
+
+	UPROPERTY(EditAnywhere, Category = Bullet)
+	TSubclassOf<class ABulletController> Bullet;
 	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	
+	FTimerHandle FireTimer;
 
 public:	
 	// Called every frame
