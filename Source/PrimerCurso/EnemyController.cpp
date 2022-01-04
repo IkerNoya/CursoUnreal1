@@ -28,7 +28,8 @@ void AEnemyController::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	FVector NextPos = GetActorLocation();
 	FVector Direction = -GetActorForwardVector();
-	NextPos += Direction * Speed * DeltaTime;
+	NextPos += (Direction * Speed * DeltaTime);
+	SetActorLocation(NextPos);
 	if(GetActorLocation().X <= 100.0f)
 		Destroy();
 	
