@@ -52,9 +52,11 @@ void AShip::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	PlayerInputComponent->BindAxis("Right", this, &AShip::MoveRight);
     PlayerInputComponent->BindAxis("Forward", this, &AShip::MoveForward);
+	
     PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AShip::StartFire);
     PlayerInputComponent->BindAction("Fire", IE_Released, this, &AShip::EndFire);
-	
+
+	PlayerInputComponent->BindAction("Reset", IE_Pressed, this, &AShip::OnResetPressed).bExecuteWhenPaused = true;
 }
 
 void AShip::MoveRight(float Value)
@@ -99,8 +101,16 @@ void AShip::EndFire()
 	}
 }
 
+void AShip::OnResetPressed()
+{
+	if(IsDead)
+	{
+		UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), false);
+	}
+}
+
 void AShip::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent,
-	int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+                      int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	if(OtherActor->IsA(AEnemyController::StaticClass()) && !IsDead)
 	{
