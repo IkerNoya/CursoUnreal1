@@ -20,12 +20,25 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Movement)
 	float Speed = 800.0f;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Gameplay)
+	bool IsDead	= false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = VFX)
+	UParticleSystem* Explosion;
+
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	virtual void PostInitializeComponents() override;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UFUNCTION()
+	void OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	
 
 };

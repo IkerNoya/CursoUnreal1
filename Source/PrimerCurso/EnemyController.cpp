@@ -3,6 +3,13 @@
 
 #include "EnemyController.h"
 
+#include "BulletController.h"
+#include "BehaviorTree/BehaviorTreeTypes.h"
+#include "Kismet/GameplayStatics.h"
+#include "Particles/ParticleEmitter.h"
+#include "Particles/ParticleSystem.h"
+#include "Particles/ParticleSystemComponent.h"
+
 // Sets default values
 AEnemyController::AEnemyController()
 {
@@ -11,7 +18,6 @@ AEnemyController::AEnemyController()
 
 	BoxCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("Box Collider"));
 	BoxCollider->SetGenerateOverlapEvents(true);
-	SetRootComponent(BoxCollider);
 
 }
 
@@ -22,16 +28,35 @@ void AEnemyController::BeginPlay()
 	
 }
 
+void AEnemyController::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
+	BoxCollider->OnComponentBeginOverlap.AddDynamic(this, &AEnemyController::OnOverlap);
+}
+
 // Called every frame
 void AEnemyController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	FVector NextPos = GetActorLocation();
-	FVector Direction = -GetActorForwardVector();
-	NextPos += (Direction * Speed * DeltaTime);
-	SetActorLocation(NextPos);
+	if(!IsDead)
+	{
+		FVector NextPos = GetActorLocation();
+		FVector Direction = -GetActorForwardVector();
+		NextPos += (Direction * Speed * DeltaTime);
+		SetActorLocation(NextPos);
+	}
 	if(GetActorLocation().X <= 100.0f)
 		Destroy();
 	
+}
+
+void AEnemyController::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	if(OtherActor->IsA(ABulletController::StaticClass()) && !IsDead)
+	{
+		IsDead=true;
+		OtherActor->Destroy();
+		BoxCollider->Deactivate();
+	}
 }
 

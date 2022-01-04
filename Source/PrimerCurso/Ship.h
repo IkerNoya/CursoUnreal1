@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Distributions/DistributionFloatUniformCurve.h"
 #include "GameFramework/Pawn.h"
 #include "Ship.generated.h"
 
@@ -28,10 +29,13 @@ public:
 
 	UPROPERTY(EditAnywhere, Category = Bullet)
 	TSubclassOf<class ABulletController> Bullet;
-	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Gameplay)
+	bool IsDead = false;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	virtual void PostInitializeComponents() override;
 
 	FTimerHandle FireTimer;
 
@@ -47,4 +51,10 @@ public:
 	void StartFire();
 	void Fire();
 	void EndFire();
+	
+	UFUNCTION()
+	void OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
+private:
+	FVector BulletSpawnOffset;
 };

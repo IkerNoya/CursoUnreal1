@@ -19,7 +19,6 @@ ABulletController::ABulletController()
 void ABulletController::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame

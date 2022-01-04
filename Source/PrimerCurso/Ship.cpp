@@ -4,11 +4,11 @@
 #include "Ship.h"
 
 #include "BulletController.h"
-#include "../../Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/printf.h"
+#include "EnemyController.h"
 #include "Components/BoxComponent.h"
 #include "Components/ShapeComponent.h"
 #include "GameFramework/FloatingPawnMovement.h"
-#include "GameFramework/MovementComponent.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AShip::AShip()
@@ -17,7 +17,9 @@ AShip::AShip()
 	PrimaryActorTick.bCanEverTick = true;
 	
 	CollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("Box Collision"));
-	SetRootComponent(CollisionBox);
+
+	CollisionBox->SetGenerateOverlapEvents(true);
+	
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
 
 	PawnMovementComponent = CreateDefaultSubobject<UFloatingPawnMovement>(TEXT("Pawn Movement Component"));
@@ -28,7 +30,14 @@ AShip::AShip()
 void AShip::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	BulletSpawnOffset = GetActorForwardVector() * 150;
+}
+
+void AShip::PostInitializeComponents() // delegates dinamicos relacionados con componentes van aca
+{
+	Super::PostInitializeComponents();
+	CollisionBox->OnComponentBeginOverlap.AddDynamic(this, &AShip::OnOverlap);
 }
 
 // Called every frame
@@ -42,14 +51,15 @@ void AShip::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	PlayerInputComponent->BindAxis("Right", this, &AShip::MoveRight);
-	PlayerInputComponent->BindAxis("Forward", this, &AShip::MoveForward);
-	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AShip::StartFire);
-	PlayerInputComponent->BindAction("Fire", IE_Released, this, &AShip::EndFire);
+    PlayerInputComponent->BindAxis("Forward", this, &AShip::MoveForward);
+    PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AShip::StartFire);
+    PlayerInputComponent->BindAction("Fire", IE_Released, this, &AShip::EndFire);
+	
 }
 
 void AShip::MoveRight(float Value)
 {
-	if(Value)
+	if(Value && !IsDead)
 	{
 		AddMovementInput(GetActorRightVector(), Value);
 	}
@@ -57,7 +67,7 @@ void AShip::MoveRight(float Value)
 
 void AShip::MoveForward(float Value)
 {
-	if(Value)
+	if(Value && !IsDead)
 	{
 		AddMovementInput(GetActorForwardVector(), Value);
 	}
@@ -65,8 +75,11 @@ void AShip::MoveForward(float Value)
 
 void AShip::StartFire()
 {
-	Fire();
-	GetWorld()->GetTimerManager().SetTimer(FireTimer, this, &AShip::Fire, FireRate, true);
+	if(!IsDead)
+	{
+		Fire();
+		GetWorld()->GetTimerManager().SetTimer(FireTimer, this, &AShip::Fire, FireRate, true);
+	}
 }
 
 void AShip::Fire()
@@ -74,14 +87,24 @@ void AShip::Fire()
 	UWorld* World = GetWorld();
 	if(World)
 	{
-		World->SpawnActor<ABulletController>(Bullet, GetActorLocation(), FRotator::ZeroRotator);
+		World->SpawnActor<ABulletController>(Bullet, GetActorLocation() + BulletSpawnOffset, FRotator::ZeroRotator);
 	}
 }
 
 void AShip::EndFire()
 {
-	GetWorld()->GetTimerManager().ClearTimer(FireTimer);
+	if(!IsDead)
+	{
+		GetWorld()->GetTimerManager().ClearTimer(FireTimer);
+	}
 }
 
-
-
+void AShip::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent,
+	int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	if(OtherActor->IsA(AEnemyController::StaticClass()) && OtherComponent->IsActive() && !IsDead)
+	{
+		IsDead =true;
+		GetWorld()->GetTimerManager().ClearTimer(FireTimer);
+	}
+}
