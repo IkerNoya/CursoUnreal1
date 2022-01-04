@@ -6,6 +6,7 @@
 #include "GameFramework/Pawn.h"
 #include "Ship.generated.h"
 
+class UFloatingPawnMovement;
 
 UCLASS()
 class PRIMERCURSO_API AShip : public APawn
@@ -18,14 +19,16 @@ public:
 
 	UPROPERTY(EditAnywhere, Category = General)
 	UShapeComponent* CollisionBox;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement)
+	UPawnMovementComponent* PawnMovementComponent;
+
 	
-	UPROPERTY(EditAnywhere, Category = Gameplay)
-	float Speed;
-	UPROPERTY(VisibleAnywhere);
-	FVector CurrentVelocity;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	
 
 public:	
 	// Called every frame
@@ -36,4 +39,7 @@ public:
 
 	void MoveRight(float Value);
 	void MoveForward(float Value);
+	void StartFire();
+	void Fire();
+	void EndFire();
 };

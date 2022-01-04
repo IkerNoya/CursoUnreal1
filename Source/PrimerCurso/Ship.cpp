@@ -6,6 +6,7 @@
 #include "../../Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/printf.h"
 #include "Components/BoxComponent.h"
 #include "Components/ShapeComponent.h"
+#include "GameFramework/FloatingPawnMovement.h"
 #include "GameFramework/MovementComponent.h"
 
 // Sets default values
@@ -17,7 +18,8 @@ AShip::AShip()
 	CollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("CollisionBox"));
 	SetRootComponent(CollisionBox);
 	AutoPossessPlayer = EAutoReceiveInput::Player0;
-	Speed = 50.0f;
+
+	PawnMovementComponent = CreateDefaultSubobject<UFloatingPawnMovement>(TEXT("Pawn Movement Component"));
 	
 }
 
@@ -32,11 +34,6 @@ void AShip::BeginPlay()
 void AShip::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	if(!CurrentVelocity.IsZero())
-	{
-		FVector NewPosition = GetActorLocation() + Speed * CurrentVelocity * DeltaTime;
-		SetActorLocation(NewPosition);
-	}
 }
 
 // Called to bind functionality to input
@@ -45,16 +42,24 @@ void AShip::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	PlayerInputComponent->BindAxis("Right", this, &AShip::MoveRight);
 	PlayerInputComponent->BindAxis("Forward", this, &AShip::MoveForward);
+	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AShip::StartFire);
+	PlayerInputComponent->BindAction("Fire", IE_Released, this, &AShip::EndFire);
 }
 
 void AShip::MoveRight(float Value)
 {
-	CurrentVelocity.Y = Value * 100.0f;
+	if(Value)
+	{
+		AddMovementInput(GetActorRightVector(), Value);
+	}
 }
 
 void AShip::MoveForward(float Value)
 {
-	CurrentVelocity.X = Value * 100.0f;
+	if(Value)
+	{
+		AddMovementInput(GetActorForwardVector(), Value);
+	}
 }
 
 

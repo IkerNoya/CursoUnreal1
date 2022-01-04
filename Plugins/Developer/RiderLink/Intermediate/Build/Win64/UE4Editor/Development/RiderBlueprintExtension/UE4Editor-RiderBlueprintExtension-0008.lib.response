@@ -6,7 +6,7 @@
 /NAME:"UE4Editor-RiderBlueprintExtension-0008.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprintExtension\Module.RiderBlueprintExtension.cpp.obj"
-"C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprintExtension\Default.rc2.res"
-/OUT:"C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprintExtension\UE4Editor-RiderBlueprintExtension-0008.lib"
+"C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprintExtension\Module.RiderBlueprintExtension.cpp.obj"
+"C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprintExtension\Default.rc2.res"
+/OUT:"C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderBlueprintExtension\UE4Editor-RiderBlueprintExtension-0008.lib"
 /INCLUDE:IMPLEMENT_MODULE_RiderBlueprintExtension

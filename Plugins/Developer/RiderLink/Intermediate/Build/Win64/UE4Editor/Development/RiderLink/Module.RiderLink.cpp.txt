@@ -1,693 +1,698 @@
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLink\Definitions.h
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Private/ProtocolFactory.cpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Private\ProtocolFactory.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Protocol.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IProtocol.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdDynamic.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RName.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\thirdparty.hpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_set.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\cstddef
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\yvals_core.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\vcruntime.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\sal.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\concurrencysal.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\vadefs.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xkeycheck.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\stddef.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xtr1common
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\cstdint
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\stdint.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\deque
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xmemory
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\cstdlib
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\math.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_math.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\stdlib.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_malloc.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_search.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_wstdlib.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\limits.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\limits
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\cfloat
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\float.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\climits
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\cwchar
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\cstdio
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\stdio.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_wstdio.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_stdio_config.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\wchar.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_memcpy_s.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\errno.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\vcruntime_string.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_wconio.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_wctype.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_wdirect.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_wio.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_share.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_wprocess.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_wstring.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_wtime.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\sys/stat.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\sys/types.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\intrin0.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\intrin0.inl.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\isa_availability.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xstddef
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\initializer_list
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\new
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\exception
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\yvals.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\crtdbg.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\vcruntime_new_debug.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\vcruntime_new.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\crtdefs.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\use_ansi.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\type_traits
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\malloc.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\vcruntime_exception.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\eh.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_terminate.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xatomic.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xutility
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\cstring
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\string.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_memory.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\utility
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\functional
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\tuple
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\typeinfo
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\vcruntime_typeinfo.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\memory
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\iosfwd
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\vector
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl\ordered_hash.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\algorithm
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\cassert
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\assert.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\cmath
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\iterator
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\stdexcept
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xstring
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_map.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\optional\tl\optional.hpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark/variant.hpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\config.hpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\in_place.hpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\lib.hpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include\nonstd/string_view.hpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\cassert
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\assert.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\ostream
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\ios
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xlocnum
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\streambuf
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xiosbase
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\share.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\system_error
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\__msvc_system_error_abi.hpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\cerrno
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xcall_once.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xerrc.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\atomic
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xthreads.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xtimec.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\ctime
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\time.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xlocale
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xfacet
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xlocinfo
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\__msvc_xlocinfo_types.hpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\cctype
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\ctype.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\clocale
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\locale.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\string
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\rd_framework_export.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/Serializers.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/RdId.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Buffer.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/DateTime.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/hash.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\rd_core_export.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_util.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\erase_if.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\gen_util.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/allocator.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\overloaded.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\shared_function.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/to_string.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\thread
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\chrono
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\ratio
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\process.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_startup.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\math.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\vcruntime_startup.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\sstream
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\istream
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\future
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\condition_variable
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\mutex
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\ppltasks.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\pplwin.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\pplinterface.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\ppltaskscheduler.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\crtdefs.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\pplcancellation_token.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\intrin.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\setjmp.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\immintrin.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\wmmintrin.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\nmmintrin.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\smmintrin.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\tmmintrin.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\pmmintrin.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\emmintrin.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xmmintrin.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\mmintrin.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\zmmintrin.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\ammintrin.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\locale
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xlocbuf
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xlocmes
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xlocmon
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xloctime
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\codecvt
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/wrapper.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_traits.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/Void.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/spdlog.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/common.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/tweakme.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/null_mutex.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/fmt.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/core.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/format.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/registry.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/cfg/log_levels.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\unordered_map
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xhash
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\list
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xbit_ops.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/logger.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/log_msg.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/backtracer.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/log_msg_buffer.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/circular_q.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\cassert
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\assert.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/os.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/version.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/synchronous_factory.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\iostream
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\cassert
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\assert.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/list.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\hashing.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/ISerializable.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Identities.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IUnknownInstance.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/RdAny.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\DefaultAbstractDeclaration.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/unordered_map.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\unordered_set
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/base/IScheduler.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IWire.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/base/interfaces.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/Lifetime.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeImpl.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\map
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\xtree
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IRdReactive.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdBindable.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdWireable.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/Property.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IProperty.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalX.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalCookie.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\IPropertyBase.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/SequentialLifetimes.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeDefinition.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/SerializationCtx.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\regex
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern/InternRoot.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdReactiveBase.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdBindableBase.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\guards.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern\InternScheduler.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/InternedAnySerializer.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/SerializationCtx.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire/SocketWire.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/WireBase.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/MessageBroker.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\queue
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\ByteBufferAsyncProcessor.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\PkgInputStream.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\array
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/UniquePtr.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\CoreTypes.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Build.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL\PreprocessorHelpers.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCompilerPreSetup.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformCompilerPreSetup.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatform.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCodeAnalysis.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatform.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\MSVC/MSVCPlatform.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCompilerSetup.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\ProfilingDebugging/UMemoryDefines.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CoreMiscDefines.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CoreDefines.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/UnrealTemplate.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsPointer.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/UnrealMemory.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformMemory.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMemory.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\CoreFwd.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/ContainersFwd.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Traits/IsContiguousContainer.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/UObjectHierarchyFwd.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformMemory.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsSystemIncludes.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/MinimalWindowsApi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\tchar.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\intsafe.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\winapifamily.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\winpackagefamily.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\specstrings.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\specstrings_strict.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\specstrings_undef.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\driverspecs.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\sdv_driverspecs.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\strsafe.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\stdarg.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/MemoryBase.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/OutputDevice.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/LogVerbosity.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/VarArgs.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsValidVariadicFunctionArg.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates\IsEnum.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/AndOrNot.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsArrayOrRefOfType.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformAtomics.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformAtomics.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformAtomics.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Exec.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/AssertionMacros.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformMisc.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMisc.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformCrt.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\math.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CompressionFlags.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformMisc.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\ProfilingDebugging/CpuProfilerTrace.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\TraceLog\Public\Trace/Trace.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\TraceLog\Public\Trace\Detail/Trace.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\TraceLog\Public\Trace/Config.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\TraceLog\Public\Trace/Detail/Channel.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\TraceLog\Public\Trace/Detail/Channel.inl
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/EnableIf.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Atomic.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/ThreadSafeCounter.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/ThreadSafeCounter64.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsIntegral.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsTrivial.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsTriviallyDestructible.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsTriviallyCopyConstructible.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsTriviallyCopyAssignable.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Traits/IntType.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/AreTypesEqual.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/CopyQualifiersAndRefsFromTo.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/CopyQualifiersFromTo.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsArithmetic.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/UnrealTypeTraits.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/RemoveCV.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Traits/IsVoidType.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Models.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Identity.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsPODType.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/RemoveReference.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/TypeCompatibleBytes.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsArray.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/RemoveExtent.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/MemoryLayout.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/EnumAsByte.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsEnumClass.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/TypeHash.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Crc.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Char.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\wctype.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CString.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformString.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformString.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/MicrosoftPlatformString.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformString.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformStricmp.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/StringFwd.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsAbstract.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsPolymorphic.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/DelayedAutoRegister.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Function.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/ChooseClass.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Decay.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Invoke.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/PointerIsConvertibleFromTo.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/StaticAssertCompleteType.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/LosesQualifiersFromTo.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsConstructible.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsInvocable.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsMemberPointer.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Math/UnrealMathUtility.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformMath.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMath.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformMath.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Math/UnrealPlatformMathSSE4.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Math/UnrealPlatformMathSSE.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsFloatingPoint.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime/Launch/Resources/Version.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformFilemanager.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/App.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/Array.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsSigned.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/ContainerAllocationPolicies.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/MemoryOps.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Math/NumericLimits.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/Archive.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformProperties.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformProperties.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformProperties.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/EngineVersionBase.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/TextNamespaceFwd.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/MemoryImageWriter.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/Heapify.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/Impl/BinaryHeap.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/ReversePredicate.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IdentityFunctor.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Less.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/HeapSort.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/IsHeap.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Sorting.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/BinarySearch.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/Sort.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/IntroSort.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/AlignmentTemplates.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/UnrealString.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/StringFormatArg.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Parse.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/NameTypes.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/CriticalSection.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsCriticalSection.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Timespan.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Math/Interval.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/StringConv.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/UnrealNames.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\UObject\UnrealNames.inl
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\CoreGlobals.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/LogCategory.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/LogScopedCategoryAndVerbosityOverride.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/LogTrace.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\ProfilingDebugging/FormatArgsTrace.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformTLS.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformTLS.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformTLS.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/Delegate.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/SharedPointer.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/Map.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/Reverse.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/Set.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/StructBuilder.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/SparseArray.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/ScriptArray.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/BitArray.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/EnumClassFlags.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/StructuredArchive.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/StructuredArchiveFormatter.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization\Formatters/BinaryArchiveFormatter.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Optional.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Concepts/Insertable.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/ArchiveProxy.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/UniqueObj.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Tuple.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/IntegerSequence.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/SharedPointerInternals.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/SharedPointerTesting.inl
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/WeakObjectPtrTemplates.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/MulticastDelegateBase.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/IDelegateInstance.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateSettings.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateBase.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateInstanceInterface.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateInstancesImpl.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/ScriptDelegates.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsConst.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateCombinations.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Guid.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Hash/CityHash.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CoreMisc.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Math/IntPoint.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/ThreadSingleton.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/TlsAutoCleanup.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CommandLine.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/QualifiedFrameTime.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/FrameRate.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/FrameNumber.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/FrameTime.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/Text.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/TextKey.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/LocKeyFuncs.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/CulturePointer.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/TextLocalizationManager.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/ArrayView.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/LocTesting.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/LocalizedTextSourceTypes.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/StringTableCoreFwd.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/ITextData.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Math/Range.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/DateTime.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Math/RangeBound.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/ExpressionParserTypes.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/Internationalization.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/ValueOrError.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/TVariant.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc\TVariantMeta.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/ExpressionParserTypes.inl
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Timecode.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformProcess.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformProcess.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformProcess.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/FileHelper.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/StringView.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers\StringView.inl
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/FileManager.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformFile.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Math/Color.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Paths.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/AllowWindowsPlatformTypes.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsHWrapper.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/PreWindowsApi.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/MinWindows.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\Windows.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\sdkddkver.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\INCLUDE\excpt.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\windef.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\minwindef.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnt.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\kernelspecs.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\basetsd.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\guiddef.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\pshpack4.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\poppack.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\pshpack4.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\poppack.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\pshpack4.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\pshpack2.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\poppack.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\pshpack2.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\pshpack2.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\poppack.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\poppack.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\pshpack8.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\poppack.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\pshpack1.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\poppack.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\pshpack1.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\poppack.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\poppack.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\apiset.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\ktmtypes.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winbase.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\apisetcconv.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\minwinbase.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\processenv.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\fileapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\debugapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\utilapiset.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\handleapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\errhandlingapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\fibersapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\namedpipeapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\profileapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\heapapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\ioapiset.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\synchapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\interlockedapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\processthreadsapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\sysinfoapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\memoryapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\enclaveapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\threadpoollegacyapiset.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\threadpoolapiset.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\jobapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\jobapi2.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\wow64apiset.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\libloaderapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\securitybaseapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\namespaceapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\systemtopologyapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\processtopologyapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\securityappcontainer.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\realtimeapiset.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\winerror.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\timezoneapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\wingdi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\pshpack1.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\poppack.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\pshpack2.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\poppack.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\pshpack4.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\poppack.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\pshpack4.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\poppack.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winuser.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\pshpack2.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\poppack.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\tvout.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnls.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\datetimeapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\stringapiset.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnls.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\wincon.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\consoleapi.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winver.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\verrsrc.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winreg.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\reason.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\winnetwk.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\wnnc.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\stralign.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\imm.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um\ime_cmodes.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/PostWindowsApi.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/PreWindowsApi.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/PostWindowsApi.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/HideWindowsPlatformTypes.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/sinks/daily_file_sink.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/file_helper.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/sinks/base_sink.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/sinks/sink.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/formatter.h
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Private/RiderLink.cpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Private\RiderLink.hpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\IRiderLink.hpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorModel/RdEditorModel.Generated.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdSignal.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/Polymorphic.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdProperty.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdPropertyBase.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdList.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableList.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableList.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\viewable_collections.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdSet.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableSet.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableSet.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdMap.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableMap.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableMap.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/ISerializersOwner.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/NullableSerializer.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/AbstractPolymorphic.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\framework_traits.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/ArraySerializer.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/InternedSerializer.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext/RdExtBase.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext\ExtWire.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdCall.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTask.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTaskImpl.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTaskResult.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/SynchronousScheduler.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\WiredRdTask.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\WiredRdTaskImpl.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdEndpoint.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdSymmetricCall.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/enum.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\instantiations_RdEditorRoot.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UnrealLogEvent.Generated.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\instantiations_UE4Library.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\UE4TypesMarshallers.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/LogMessageInfo.Generated.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/StringRange.Generated.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/BlueprintReference.Generated.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UClass.Generated.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/PlayState.Generated.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/RequestResultBase.Generated.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Modules/ModuleInterface.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Modules/ModuleManager.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Modules/Boilerplate/ModuleBoilerplate.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/SingleThreadScheduler.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base/SingleThreadSchedulerBase.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UE4Library.Generated.h
-C:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/ScopeRWLock.h
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Private/UE4TypesMarshallers.cpp
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/instantiations_UE4Library.cpp
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintFunction.Generated.cpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\BlueprintFunction.Generated.h
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintHighlighter.Generated.cpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\BlueprintHighlighter.Generated.h
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintReference.Generated.cpp
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/EmptyScriptCallStack.Generated.cpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\EmptyScriptCallStack.Generated.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptCallStack.Generated.h
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptCallStack.Generated.cpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptCallStack_Unknown.Generated.h
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptCallStack_Unknown.Generated.cpp
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptMsg.Generated.cpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptMsg.Generated.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptMsg_Unknown.Generated.h
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptMsg_Unknown.Generated.cpp
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/LogMessageInfo.Generated.cpp
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/NotificationType.Generated.cpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\NotificationType.Generated.h
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/PlayState.Generated.cpp
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestFailed.Generated.cpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\RequestFailed.Generated.h
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestResultBase.Generated.cpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\RequestResultBase_Unknown.Generated.h
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestResultBase_Unknown.Generated.cpp
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestSucceed.Generated.cpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\RequestSucceed.Generated.h
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptCallStack.Generated.cpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptCallStack.Generated.h
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/ScriptCallStackFrame.Generated.h
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptCallStackFrame.Generated.cpp
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptMsgCallStack.Generated.cpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptMsgCallStack.Generated.h
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptMsgException.Generated.cpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptMsgException.Generated.h
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/StringRange.Generated.cpp
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UClass.Generated.cpp
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UE4Library.Generated.cpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UnableToDisplayScriptCallStack.Generated.h
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnableToDisplayScriptCallStack.Generated.cpp
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnrealLogEvent.Generated.cpp
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/instantiations_RdEditorRoot.cpp
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorModel/RdEditorModel.Generated.cpp
-C:\Users\ikern\OneDrive\Escritorio\Cursos Unreal\PrimerCurso\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorRoot/RdEditorRoot.Generated.h
-C:/Users/ikern/OneDrive/Escritorio/Cursos Unreal/PrimerCurso/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorRoot/RdEditorRoot.Generated.cpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Intermediate\Build\Win64\UE4Editor\Development\RiderLink\Definitions.h
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Private/ProtocolFactory.cpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Private\ProtocolFactory.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Protocol.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IProtocol.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdDynamic.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RName.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\thirdparty.hpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_set.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cstddef
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\yvals_core.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\sal.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\concurrencysal.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vadefs.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xkeycheck.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\stddef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xtr1common
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cstdint
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\stdint.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\deque
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xmemory
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cstdlib
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\math.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_math.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\stdlib.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_malloc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_search.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wstdlib.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\limits.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\limits
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cfloat
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\float.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\climits
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cwchar
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cstdio
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\stdio.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wstdio.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_stdio_config.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\wchar.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_memcpy_s.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\errno.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_string.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wconio.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wctype.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wdirect.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wio.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_share.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wprocess.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wstring.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_wtime.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\sys/stat.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\sys/types.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\intrin0.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\intrin0.inl.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\isa_availability.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xstddef
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\initializer_list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\new
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\exception
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\yvals.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\crtdbg.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_new_debug.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_new.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\use_ansi.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\type_traits
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\malloc.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_exception.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\eh.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_terminate.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xatomic.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xutility
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cstring
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\string.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_memory.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\utility
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\functional
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\tuple
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\typeinfo
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_typeinfo.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\memory
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\iosfwd
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vector
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl\ordered_hash.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\algorithm
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\assert.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cmath
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\iterator
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\stdexcept
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xstring
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\ordered-map\include\tsl/ordered_map.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\optional\tl\optional.hpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark/variant.hpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\config.hpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\in_place.hpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\variant\include\mpark\lib.hpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\string-view-lite\include\nonstd/string_view.hpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\assert.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\ostream
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\ios
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocnum
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\streambuf
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xiosbase
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\share.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\system_error
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\__msvc_system_error_abi.hpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cerrno
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xcall_once.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xerrc.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\atomic
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xthreads.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xtimec.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\ctime
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\time.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocale
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xfacet
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocinfo
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocinfo.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cctype
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\ctype.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\clocale
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\locale.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\string
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\rd_framework_export.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/Serializers.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/RdId.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Buffer.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/DateTime.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/hash.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\rd_core_export.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_util.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\erase_if.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\gen_util.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/allocator.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\overloaded.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util\shared_function.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/to_string.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\thread
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\chrono
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\ratio
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\process.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\corecrt_startup.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\math.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\vcruntime_startup.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\sstream
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\istream
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\future
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\condition_variable
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\mutex
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\ppltasks.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\pplwin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\pplinterface.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\ppltaskscheduler.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\pplcancellation_token.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\intrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\setjmp.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\immintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\wmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\nmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\smmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\tmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\pmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\emmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\mmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\zmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\ammintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\locale
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocbuf
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocmes
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xlocmon
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xloctime
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\codecvt
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/wrapper.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/core_traits.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\types/Void.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/spdlog.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/common.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/tweakme.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/null_mutex.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/fmt.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/core.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/fmt/bundled/format.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/registry.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/cfg/log_levels.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\unordered_map
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xhash
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xbit_ops.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/logger.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/log_msg.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/backtracer.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/log_msg_buffer.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/circular_q.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\assert.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/os.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/version.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/synchronous_factory.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\iostream
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\cassert
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\assert.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/list.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\hashing.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/ISerializable.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/Identities.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IUnknownInstance.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/RdAny.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization\DefaultAbstractDeclaration.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\std/unordered_map.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\unordered_set
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/base/IScheduler.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IWire.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/base/interfaces.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/Lifetime.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeImpl.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\map
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xtree
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/IRdReactive.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdBindable.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base\IRdWireable.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/Property.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IProperty.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalX.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\SignalCookie.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\IPropertyBase.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime/SequentialLifetimes.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\lifetime\LifetimeDefinition.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/SerializationCtx.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\regex
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern/InternRoot.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdReactiveBase.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdBindableBase.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\guards.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\intern\InternScheduler.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/InternedAnySerializer.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/SerializationCtx.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire/SocketWire.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/WireBase.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\protocol/MessageBroker.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\queue
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\ByteBufferAsyncProcessor.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\wire\PkgInputStream.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\array
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/UniquePtr.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\CoreTypes.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/Platform.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Build.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL\PreprocessorHelpers.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCompilerPreSetup.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformCompilerPreSetup.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatform.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCodeAnalysis.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatform.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\MSVC/MSVCPlatform.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCompilerSetup.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\ProfilingDebugging/UMemoryDefines.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CoreMiscDefines.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CoreDefines.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/UnrealTemplate.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsPointer.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/UnrealMemory.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformMemory.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMemory.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\CoreFwd.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/ContainersFwd.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Traits/IsContiguousContainer.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/UObjectHierarchyFwd.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformMemory.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsSystemIncludes.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/MinimalWindowsApi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\tchar.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\intsafe.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\winapifamily.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\winpackagefamily.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\specstrings.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\specstrings_strict.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\specstrings_undef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\driverspecs.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\sdv_driverspecs.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\strsafe.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\stdarg.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/MemoryBase.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/OutputDevice.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/LogVerbosity.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/VarArgs.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsValidVariadicFunctionArg.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates\IsEnum.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/AndOrNot.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsArrayOrRefOfType.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformAtomics.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformAtomics.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformAtomics.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Exec.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/AssertionMacros.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformMisc.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMisc.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformCrt.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\math.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CompressionFlags.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformMisc.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\ProfilingDebugging/CpuProfilerTrace.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\TraceLog\Public\Trace/Trace.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\TraceLog\Public\Trace\Detail/Trace.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\TraceLog\Public\Trace/Config.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\TraceLog\Public\Trace/Detail/Channel.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\TraceLog\Public\Trace/Detail/Channel.inl
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/EnableIf.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Atomic.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/ThreadSafeCounter.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/ThreadSafeCounter64.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsIntegral.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsTrivial.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsTriviallyDestructible.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsTriviallyCopyConstructible.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsTriviallyCopyAssignable.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Traits/IntType.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/AreTypesEqual.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/CopyQualifiersAndRefsFromTo.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/CopyQualifiersFromTo.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsArithmetic.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/UnrealTypeTraits.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/RemoveCV.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Traits/IsVoidType.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Models.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Identity.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsPODType.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/RemoveReference.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/TypeCompatibleBytes.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsArray.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/RemoveExtent.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/MemoryLayout.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/EnumAsByte.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsEnumClass.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/TypeHash.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Crc.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Char.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\wctype.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CString.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformString.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformString.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/MicrosoftPlatformString.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformString.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformStricmp.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/StringFwd.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsAbstract.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsPolymorphic.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/DelayedAutoRegister.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Function.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/ChooseClass.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Decay.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Invoke.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/PointerIsConvertibleFromTo.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/StaticAssertCompleteType.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/LosesQualifiersFromTo.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsConstructible.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsInvocable.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsMemberPointer.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Math/UnrealMathUtility.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformMath.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMath.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformMath.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Math/UnrealPlatformMathSSE4.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Math/UnrealPlatformMathSSE.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsFloatingPoint.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime/Launch/Resources/Version.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformFilemanager.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/App.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/Array.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsSigned.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/ContainerAllocationPolicies.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/MemoryOps.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Math/NumericLimits.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/Archive.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformProperties.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformProperties.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformProperties.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/EngineVersionBase.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/TextNamespaceFwd.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/MemoryImageWriter.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/Heapify.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/Impl/BinaryHeap.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/ReversePredicate.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IdentityFunctor.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Less.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/HeapSort.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/IsHeap.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Sorting.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/BinarySearch.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/Sort.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/IntroSort.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/AlignmentTemplates.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/UnrealString.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/StringFormatArg.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Parse.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/NameTypes.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/CriticalSection.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsCriticalSection.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Timespan.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Math/Interval.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/StringConv.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/UnrealNames.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\UObject\UnrealNames.inl
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\CoreGlobals.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/LogMacros.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/LogCategory.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/LogScopedCategoryAndVerbosityOverride.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Logging/LogTrace.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\ProfilingDebugging/FormatArgsTrace.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformTLS.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformTLS.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformTLS.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/Delegate.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/SharedPointer.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/Map.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Algo/Reverse.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/Set.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/StructBuilder.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/SparseArray.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/ScriptArray.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/BitArray.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/EnumClassFlags.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/StructuredArchive.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/StructuredArchiveFormatter.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization\Formatters/BinaryArchiveFormatter.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Optional.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Concepts/Insertable.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Serialization/ArchiveProxy.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/UniqueObj.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/Tuple.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/IntegerSequence.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/SharedPointerInternals.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/SharedPointerTesting.inl
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/WeakObjectPtrTemplates.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/MulticastDelegateBase.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/IDelegateInstance.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateSettings.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateBase.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateInstanceInterface.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateInstancesImpl.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateSignatureImpl.inl
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\UObject/ScriptDelegates.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/IsConst.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Delegates/DelegateCombinations.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Guid.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Hash/CityHash.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CoreMisc.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Math/IntPoint.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/ThreadSingleton.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/TlsAutoCleanup.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/CommandLine.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/QualifiedFrameTime.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/FrameRate.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/FrameNumber.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/FrameTime.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/Text.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/TextKey.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/LocKeyFuncs.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/CulturePointer.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/TextLocalizationManager.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/ArrayView.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/LocTesting.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/LocalizedTextSourceTypes.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/StringTableCoreFwd.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/ITextData.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Math/Range.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/DateTime.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Math/RangeBound.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/ExpressionParserTypes.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Internationalization/Internationalization.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Templates/ValueOrError.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/TVariant.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc\TVariantMeta.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/ExpressionParserTypes.inl
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Timecode.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/PlatformProcess.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformProcess.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformProcess.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/FileHelper.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers/StringView.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Containers\StringView.inl
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\HAL/FileManager.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformFile.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Math/Color.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/Paths.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/AllowWindowsPlatformTypes.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/WindowsHWrapper.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/PreWindowsApi.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/MinWindows.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\Windows.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\sdkddkver.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\excpt.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\windef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\minwindef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\kernelspecs.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\basetsd.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\guiddef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\apiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\ktmtypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\apisetcconv.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\minwinbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\apiquery2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\processenv.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\fileapifromapp.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\fileapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\debugapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\utilapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\handleapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\errhandlingapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\fibersapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\namedpipeapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\profileapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\heapapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\ioapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\synchapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\interlockedapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\processthreadsapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\sysinfoapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\memoryapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\enclaveapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\threadpoollegacyapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\threadpoolapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\jobapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\jobapi2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\wow64apiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\libloaderapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\securitybaseapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\namespaceapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\systemtopologyapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\processtopologyapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\securityappcontainer.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\realtimeapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\winerror.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\timezoneapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\wingdi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winuser.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\tvout.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnls.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\datetimeapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\stringapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnls.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\wincon.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\wincontypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\consoleapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\consoleapi2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\consoleapi3.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winver.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\verrsrc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winreg.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\reason.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnetwk.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\wnnc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\stralign.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\imm.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\ime_cmodes.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/PostWindowsApi.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/PreWindowsApi.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/PostWindowsApi.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Windows/HideWindowsPlatformTypes.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/sinks/daily_file_sink.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/details/file_helper.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/sinks/base_sink.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/sinks/sink.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\thirdparty\spdlog\include\spdlog/formatter.h
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Private/RiderLink.cpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Private\RiderLink.hpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\IRiderLink.hpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorModel/RdEditorModel.Generated.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdSignal.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/Polymorphic.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdProperty.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/RdPropertyBase.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdList.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableList.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableList.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base\viewable_collections.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdSet.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableSet.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableSet.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\impl/RdMap.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive/ViewableMap.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\reactive\base/IViewableMap.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\base/ISerializersOwner.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/NullableSerializer.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/AbstractPolymorphic.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\util\framework_traits.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/ArraySerializer.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\serialization/InternedSerializer.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext/RdExtBase.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\ext\ExtWire.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdCall.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTask.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTaskImpl.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\RdTaskResult.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/SynchronousScheduler.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\WiredRdTask.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task\WiredRdTaskImpl.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdEndpoint.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\task/RdSymmetricCall.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_core_cpp\src\main\util/enum.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\instantiations_RdEditorRoot.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UnrealLogEvent.Generated.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\instantiations_UE4Library.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\UE4TypesMarshallers.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/LogMessageInfo.Generated.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/StringRange.Generated.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/BlueprintReference.Generated.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UClass.Generated.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/PlayState.Generated.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/RequestResultBase.Generated.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Modules/ModuleInterface.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Modules/ModuleManager.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Modules/Boilerplate/ModuleBoilerplate.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler/SingleThreadScheduler.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RD\src\rd_framework_cpp\src\main\scheduler\base/SingleThreadSchedulerBase.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UE4Library.Generated.h
+E:\Unreal\UE_4.26\Engine\Source\Runtime\Core\Public\Misc/ScopeRWLock.h
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Private/UE4TypesMarshallers.cpp
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/instantiations_UE4Library.cpp
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintFunction.Generated.cpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\BlueprintFunction.Generated.h
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintHighlighter.Generated.cpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\BlueprintHighlighter.Generated.h
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/BlueprintReference.Generated.cpp
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/EmptyScriptCallStack.Generated.cpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\EmptyScriptCallStack.Generated.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptCallStack.Generated.h
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptCallStack.Generated.cpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptCallStack_Unknown.Generated.h
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptCallStack_Unknown.Generated.cpp
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptMsg.Generated.cpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptMsg.Generated.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\IScriptMsg_Unknown.Generated.h
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/IScriptMsg_Unknown.Generated.cpp
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/LogMessageInfo.Generated.cpp
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/NotificationType.Generated.cpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\NotificationType.Generated.h
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/PlayState.Generated.cpp
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestFailed.Generated.cpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\RequestFailed.Generated.h
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestResultBase.Generated.cpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\RequestResultBase_Unknown.Generated.h
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestResultBase_Unknown.Generated.cpp
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/RequestSucceed.Generated.cpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\RequestSucceed.Generated.h
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptCallStack.Generated.cpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptCallStack.Generated.h
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/ScriptCallStackFrame.Generated.h
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptCallStackFrame.Generated.cpp
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptMsgCallStack.Generated.cpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptMsgCallStack.Generated.h
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/ScriptMsgException.Generated.cpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library\ScriptMsgException.Generated.h
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/StringRange.Generated.cpp
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UClass.Generated.cpp
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UE4Library.Generated.cpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\Library\UE4Library/UnableToDisplayScriptCallStack.Generated.h
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnableToDisplayScriptCallStack.Generated.cpp
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/Library/UE4Library/UnrealLogEvent.Generated.cpp
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/instantiations_RdEditorRoot.cpp
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorModel/RdEditorModel.Generated.cpp
+C:\Users\Iker\Desktop\CursoUnreal1\Plugins\Developer\RiderLink\Source\RiderLink\Public\Model\RdEditorProtocol\RdEditorRoot/RdEditorRoot.Generated.h
+C:/Users/Iker/Desktop/CursoUnreal1/Plugins/Developer/RiderLink/Source/RiderLink/Public/Model/RdEditorProtocol/RdEditorRoot/RdEditorRoot.Generated.cpp
