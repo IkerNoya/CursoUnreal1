@@ -56,7 +56,6 @@ void AEnemyController::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActo
 	{
 		IsDead=true;
 		OtherActor->Destroy();
-		BoxCollider->Deactivate();
 	}
 }
 
