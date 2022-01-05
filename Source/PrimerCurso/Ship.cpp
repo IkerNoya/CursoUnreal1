@@ -5,6 +5,7 @@
 
 #include "BulletController.h"
 #include "EnemyController.h"
+#include "TopDownShooterGameMode.h"
 #include "Components/BoxComponent.h"
 #include "Components/ShapeComponent.h"
 #include "GameFramework/FloatingPawnMovement.h"
@@ -115,6 +116,7 @@ void AShip::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherAct
 	if(OtherActor->IsA(AEnemyController::StaticClass()) && !IsDead)
 	{
 		IsDead =true;
+		static_cast<ATopDownShooterGameMode*>(GetWorld()->GetAuthGameMode())->GameOver();
 		GetWorld()->GetTimerManager().ClearTimer(FireTimer);
 	}
 }

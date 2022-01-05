@@ -6,6 +6,9 @@
 void ATopDownShooterGameMode::BeginPlay()
 {
 	Super::BeginPlay();
+	ChangeWidget(StartingWidgetClass);
+
+	static_cast<UGameWidget*>(CurrentWidget)->Load();
 	
 }
 
@@ -27,4 +30,32 @@ void ATopDownShooterGameMode::Tick(float DeltaSeconds)
 		}
 	}
 
+}
+
+void ATopDownShooterGameMode::ChangeWidget(TSubclassOf<UUserWidget> NewWidgetClass)
+{
+	if(CurrentWidget!=nullptr)
+	{
+		CurrentWidget->RemoveFromViewport();
+		CurrentWidget=nullptr;
+	}
+	if(NewWidgetClass!=nullptr)
+	{
+		CurrentWidget = CreateWidget<UUserWidget>(GetWorld(), NewWidgetClass);
+		if(CurrentWidget)
+		{
+			CurrentWidget->AddToViewport(); 	
+		}
+	}
+}
+
+void ATopDownShooterGameMode::AddScore()
+{
+	Score += ScorePerKill;
+	static_cast<UGameWidget*>(CurrentWidget)->SetScore(Score);
+}
+
+void ATopDownShooterGameMode::GameOver()
+{
+	static_cast<UGameWidget*>(CurrentWidget)->OnGameOver(Score);	
 }

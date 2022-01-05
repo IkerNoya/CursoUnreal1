@@ -4,6 +4,7 @@
 #include "EnemyController.h"
 
 #include "BulletController.h"
+#include "TopDownShooterGameMode.h"
 #include "BehaviorTree/BehaviorTreeTypes.h"
 #include "Kismet/GameplayStatics.h"
 #include "Particles/ParticleEmitter.h"
@@ -56,6 +57,7 @@ void AEnemyController::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActo
 	{
 		IsDead=true;
 		OtherActor->Destroy();
+		static_cast<ATopDownShooterGameMode*>(GetWorld()->GetAuthGameMode())->AddScore();
 	}
 }
 
