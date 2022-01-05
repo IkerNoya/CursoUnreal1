@@ -16,11 +16,9 @@ void UGameWidget::Load()
 }
 void UGameWidget::SetScore(int Score)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, TEXT("SOY NULL"));
 
 	if(TextBlock!=nullptr)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Red, TEXT("NO SOY NULL"));
 		TextBlock->SetText(FText::FromString(FString(("Score: ")) + FString::FromInt(Score)));
 	}
 }
