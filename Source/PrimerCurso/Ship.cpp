@@ -80,7 +80,7 @@ void AShip::StartFire()
 {
 	if(!IsDead)
 	{
-		Fire();
+		Fire();                                                            //                              parametro siguiente: Delay
 		GetWorld()->GetTimerManager().SetTimer(FireTimer, this, &AShip::Fire, FireRate, true);
 	}
 }
@@ -116,7 +116,15 @@ void AShip::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherAct
 	if(OtherActor->IsA(AEnemyController::StaticClass()) && !IsDead)
 	{
 		IsDead =true;
-		static_cast<ATopDownShooterGameMode*>(GetWorld()->GetAuthGameMode())->GameOver();
-		GetWorld()->GetTimerManager().ClearTimer(FireTimer);
+		UWorld* World  = GetWorld();
+		if(World)
+		{
+			ATopDownShooterGameMode* GameMode = Cast<ATopDownShooterGameMode>(World->GetAuthGameMode());
+			if(GameMode)
+			{
+				GameMode->GameOver();
+			}
+			World->GetTimerManager().ClearTimer(FireTimer);
+		}
 	}
 }

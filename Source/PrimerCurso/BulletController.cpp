@@ -32,7 +32,9 @@ void ABulletController::Tick(float DeltaTime)
 	SetActorLocation(NextPos);
 
 	if(GetActorLocation().X >= 3000.0f)
+	{
 		Destroy();
+	}
 	
 }
 

@@ -11,12 +11,16 @@ void UGameWidget::Load()
 
 	if(TextBlock==nullptr)
 	{
-		TextBlock = (UTextBlock*)(WidgetTree->FindWidget(TextName));
+		UTextBlock* TextBlockReference = Cast<UTextBlock>(WidgetTree->FindWidget(TextName));
+		if(TextBlockReference)
+		{
+			TextBlock=TextBlockReference;
+		}
 	}
 }
-void UGameWidget::SetScore(int Score)
+void UGameWidget::SetScore_Implementation(int Score)
 {
-
+	SetScore(Score);
 	if(TextBlock!=nullptr)
 	{
 		TextBlock->SetText(FText::FromString(FString(("Score: ")) + FString::FromInt(Score)));

@@ -25,7 +25,10 @@ public:
 	UTextBlock* TextBlock;
 	
 	void Load();
+	UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category = UI)
 	void SetScore(int Score);
+	void SetScore_Implementation(int Score);
+	
 	void OnGameOver(int Score);
 
 };

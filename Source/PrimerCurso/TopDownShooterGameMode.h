@@ -20,31 +20,48 @@ class PRIMERCURSO_API ATopDownShooterGameMode : public AGameMode
 	float MinimumTimeToSpawn = .4f;
 	float MaxTimeToSpawn = 2.5f;
 	float TimeToMaxDifficulty = 60.0f;
+
+	FTimerHandle EnemySpawnTimer;
+	FTimerHandle DifficultyTimer;
 public:
 	UPROPERTY(EditAnywhere, Category = Spawn)
 	TSubclassOf<class AEnemyController>Enemies;
 
 	float EnemyTimer;
 	float GameTimer;
+	
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Gameplay)
+	int Score;
+	
 protected:
 		
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = UI)
 	TSubclassOf<UUserWidget>StartingWidgetClass;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = UI)
+	TSubclassOf<UUserWidget>GameOverWidget;
 	UPROPERTY()
 	UUserWidget* CurrentWidget;
+	UPROPERTY(EditAnywhere, Category=Gameplay)
+	float TimeToSpawnEnemies = 2;
+	UPROPERTY(EditAnywhere, Category=Gameplay)
+	float TimeToIncreaseDifficulty=30;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
 	int ScorePerKill = 100;
 	
-	int Score;
+
 public:
+
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaSeconds) override;
+	virtual void Destroyed() override;
 
 	UFUNCTION(BlueprintCallable, Category = UI)
 	void ChangeWidget(TSubclassOf<UUserWidget> NewWidgetClass);
 	
 	void AddScore();
 	void GameOver();
+	void SpawnEnemy();
+	void InreaseDifficulty();
 	
 }; 

@@ -26,7 +26,6 @@ AEnemyController::AEnemyController()
 void AEnemyController::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 void AEnemyController::PostInitializeComponents()
@@ -39,15 +38,15 @@ void AEnemyController::PostInitializeComponents()
 void AEnemyController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	if(!IsDead)
-	{
-		FVector NextPos = GetActorLocation();
-		FVector Direction = -GetActorForwardVector();
-		NextPos += (Direction * Speed * DeltaTime);
-		SetActorLocation(NextPos);
-	}
+	FVector NextPos = GetActorLocation();
+	FVector Direction = -GetActorForwardVector();
+	NextPos += (Direction * Speed * DeltaTime);
+	SetActorLocation(NextPos);
+
 	if(GetActorLocation().X <= 100.0f)
+	{
 		Destroy();
+	}
 	
 }
 
@@ -57,7 +56,11 @@ void AEnemyController::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActo
 	{
 		IsDead=true;
 		OtherActor->Destroy();
-		static_cast<ATopDownShooterGameMode*>(GetWorld()->GetAuthGameMode())->AddScore();
+		ATopDownShooterGameMode* GameMode = Cast<ATopDownShooterGameMode>(GetWorld()->GetAuthGameMode());
+		if(GameMode)
+		{
+			GameMode->AddScore();
+		}
 	}
 }
 

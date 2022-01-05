@@ -8,43 +8,48 @@ void ATopDownShooterGameMode::BeginPlay()
 	Super::BeginPlay();
 	ChangeWidget(StartingWidgetClass);
 
-	static_cast<UGameWidget*>(CurrentWidget)->Load();
-	
+	UGameWidget* Hud = Cast<UGameWidget>(CurrentWidget); // Casteo de Unreal
+	if (Hud) // Formas de chequear referencias: IsValid, Ensure (3 tipos)/ Es un MACRO, el de toda la vida, 
+	{
+		Hud->Load();
+	}
+	UWorld* World = GetWorld();
+	if(World)
+	{
+		World->GetTimerManager().SetTimer(EnemySpawnTimer, this, &ATopDownShooterGameMode::SpawnEnemy, 1.5f, true, 2);
+		World->GetTimerManager().SetTimer(DifficultyTimer, this, &ATopDownShooterGameMode::InreaseDifficulty, TimeToIncreaseDifficulty, true, TimeToIncreaseDifficulty);
+	}
 }
 
 void ATopDownShooterGameMode::Tick(float DeltaSeconds)
 {
 	Super::Tick(DeltaSeconds);
-	GameTimer += DeltaSeconds;
-	EnemyTimer -= DeltaSeconds;
+}
 
-	if(EnemyTimer<=0.0f)
+void ATopDownShooterGameMode::Destroyed()
+{
+	Super::Destroyed();
+	UWorld* World = GetWorld();
+	if(World)
 	{
-		float DificultyPercentage = FMath::Min(GameTimer/TimeToMaxDifficulty, 1.0f);
-		EnemyTimer = MaxTimeToSpawn - (MaxTimeToSpawn -  MinimumTimeToSpawn) * DificultyPercentage;
-		UWorld* World = GetWorld();
-		if(World)
-		{
-			FVector SpawnPoint = FVector(FMath::RandRange(4000, 5000), FMath::RandRange(-700, 700), 380);
-			World->SpawnActor<AEnemyController>(Enemies, SpawnPoint, FRotator::ZeroRotator);
-		}
+		World->GetTimerManager().ClearTimer(EnemySpawnTimer);
+		World->GetTimerManager().ClearTimer(DifficultyTimer);
 	}
-
 }
 
 void ATopDownShooterGameMode::ChangeWidget(TSubclassOf<UUserWidget> NewWidgetClass)
 {
-	if(CurrentWidget!=nullptr)
+	if (CurrentWidget != nullptr)
 	{
 		CurrentWidget->RemoveFromViewport();
-		CurrentWidget=nullptr;
+		CurrentWidget = nullptr;
 	}
-	if(NewWidgetClass!=nullptr)
+	if (NewWidgetClass != nullptr)
 	{
 		CurrentWidget = CreateWidget<UUserWidget>(GetWorld(), NewWidgetClass);
-		if(CurrentWidget)
+		if (CurrentWidget)
 		{
-			CurrentWidget->AddToViewport(); 	
+			CurrentWidget->AddToViewport();
 		}
 	}
 }
@@ -52,10 +57,40 @@ void ATopDownShooterGameMode::ChangeWidget(TSubclassOf<UUserWidget> NewWidgetCla
 void ATopDownShooterGameMode::AddScore()
 {
 	Score += ScorePerKill;
-	static_cast<UGameWidget*>(CurrentWidget)->SetScore(Score);
+	UGameWidget* Hud = Cast<UGameWidget>(CurrentWidget); // Casteo de Unreal
+	if (Hud)
+	{
+		Hud->SetScore_Implementation(Score);
+	}
 }
 
 void ATopDownShooterGameMode::GameOver()
 {
-	static_cast<UGameWidget*>(CurrentWidget)->OnGameOver(Score);	
+	ChangeWidget(GameOverWidget);
 }
+
+void ATopDownShooterGameMode::SpawnEnemy()
+{
+	UWorld* World = GetWorld();
+	if (World)
+	{
+		FVector SpawnPoint = FVector(FMath::RandRange(4000, 5000), FMath::RandRange(-700, 700), 380);
+		World->SpawnActor<AEnemyController>(Enemies, SpawnPoint, FRotator::ZeroRotator);
+	}
+}
+
+void ATopDownShooterGameMode::InreaseDifficulty()
+{
+	if(TimeToSpawnEnemies>0.5)
+	{
+		TimeToSpawnEnemies -= 0.5f;
+		UWorld* World = GetWorld();
+		if(World)
+		{
+			World->GetTimerManager().SetTimer(EnemySpawnTimer, this,&ATopDownShooterGameMode::SpawnEnemy, TimeToSpawnEnemies, true);
+		}
+	}
+	
+}
+
+
