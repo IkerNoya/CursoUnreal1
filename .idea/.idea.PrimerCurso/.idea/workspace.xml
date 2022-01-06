@@ -29,7 +29,9 @@
     <setting file="file://$PROJECT_DIR$/Source/PrimerCurso/GameWidget.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/PrimerCurso/GameWidget.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/PrimerCurso/PowerUpBase.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/PrimerCurso/ShieldPowerUpBase.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/PrimerCurso/PowerUpBase.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/PrimerCurso/ShieldPowerUpBase.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -274,7 +276,7 @@
       <workItem from="1641382766632" duration="17029000" />
       <workItem from="1641415577348" duration="665000" />
       <workItem from="1641469404854" duration="13376000" />
-      <workItem from="1641483606227" duration="8974000" />
+      <workItem from="1641483606227" duration="13139000" />
     </task>
     <servers />
   </component>

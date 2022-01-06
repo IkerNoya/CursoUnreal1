@@ -28,6 +28,10 @@ void ABulletController::Tick(float DeltaTime)
 
 	FVector NextPos = GetActorLocation();
 	FVector Direction = GetActorForwardVector();
+	if(bActivateSineMovement)
+	{
+		Direction = FVector(Direction.X, FMath::Sin(GetWorld()->TimeSeconds * SineMagnitude), Direction.Z);
+	}
 	NextPos += (Direction * Speed * DeltaTime);
 	SetActorLocation(NextPos);
 

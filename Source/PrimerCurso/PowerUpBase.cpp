@@ -19,7 +19,6 @@ APowerUpBase::APowerUpBase()
 void APowerUpBase::BeginPlay()
 {
 	Super::BeginPlay();
-	UE_LOG(LogTemp, Warning, TEXT("DaTA: %d"),ShieldHP);
 }
 
 // Called every frame

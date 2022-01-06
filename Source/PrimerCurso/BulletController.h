@@ -20,6 +20,10 @@ public:
 
 	UPROPERTY(EditAnywhere, Category = Movement)
 	float Speed = 300.0f;
+	UPROPERTY(EditAnywhere, Category = Movement)
+	float SineMagnitude = 0;
+	UPROPERTY(EditAnywhere, Category = Movement)
+	bool bActivateSineMovement=false;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

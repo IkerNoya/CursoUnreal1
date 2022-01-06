@@ -13,6 +13,7 @@ UCLASS()
 class PRIMERCURSO_API AShipController : public APlayerController
 {
 	GENERATED_BODY()
+	AShipController();
 	bool bHasInitializedInputComponent=false;
 public:
 	virtual void SetupInputComponent() override;

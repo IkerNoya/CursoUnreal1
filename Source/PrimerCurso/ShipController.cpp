@@ -5,6 +5,11 @@
 
 #include "Kismet/GameplayStatics.h"
 
+AShipController::AShipController()
+{
+	bAutoManageActiveCameraTarget=false;
+}
+
 void AShipController::SetupInputComponent()
 {
 	Super::SetupInputComponent();

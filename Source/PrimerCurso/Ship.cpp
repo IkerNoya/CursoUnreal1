@@ -68,22 +68,6 @@ void AShip::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 }
 
-// void AShip::MoveRight(float Value)
-// {
-// 	if (Value)
-// 	{
-// 		AddMovementInput(GetActorRightVector(), Value);
-// 	}
-// }
-//
-// void AShip::MoveForward(float Value)
-// {
-// 	if (Value)
-// 	{
-// 		AddMovementInput(GetActorForwardVector(), Value);
-// 	}
-// }
-
 void AShip::StartFire()
 {
 	Fire(); //                              parametro siguiente: Delay
@@ -97,13 +81,13 @@ void AShip::Fire()
 	{
 		if (bIsScatterShotActivated)
 		{
-			World->SpawnActor<ABulletController>(Bullet, GetActorLocation() + BulletSpawnOffset, FRotator::ZeroRotator);
-			World->SpawnActor<ABulletController>(Bullet, GetActorLocation() + BulletSpawnOffset + FVector(-50,70,0), FRotator::ZeroRotator);
-			World->SpawnActor<ABulletController>(Bullet, GetActorLocation() + BulletSpawnOffset + FVector(-50,-70,0), FRotator::ZeroRotator);
+			World->SpawnActor<ABulletController>(SineBullet, GetActorLocation() + BulletSpawnOffset, FRotator::ZeroRotator);
+			World->SpawnActor<ABulletController>(SineBullet, GetActorLocation() + BulletSpawnOffset + FVector(-50,70,0), FRotator::ZeroRotator);
+			World->SpawnActor<ABulletController>(SineBullet, GetActorLocation() + BulletSpawnOffset + FVector(-50,-70,0), FRotator::ZeroRotator);
 		}
 		else
 		{
-			World->SpawnActor<ABulletController>(Bullet, GetActorLocation() + BulletSpawnOffset, FRotator::ZeroRotator);
+			World->SpawnActor<ABulletController>(NormalBullet, GetActorLocation() + BulletSpawnOffset, FRotator::ZeroRotator);
 		}
 	}
 }
@@ -168,13 +152,12 @@ void AShip::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherAct
 				break;
 			case ETypes::ScatterBlast:
 				ActivateScatterShot();
-				CurrentFireRate=PowerUp->ScatterShotFireRate;
+				bActivateSineMovement = PowerUp->bActivateSineMovement;
+				CurrentFireRate = PowerUp->ScatterShotFireRate;
 				break;
 			case ETypes::Shield:
 				ActivateShield();
 				ShieldHP = PowerUp->ShieldHP;
-				UE_LOG(LogTemp, Warning, TEXT("HP: %d"),ShieldHP);
-
 				break;
 			default:
 				break;
@@ -220,7 +203,6 @@ void AShip::HitShield_Implementation()
 {
 	
 }
-
 void AShip::BeginDestroy()
 {
 	UWorld* World = GetWorld();

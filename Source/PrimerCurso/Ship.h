@@ -3,7 +3,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Distributions/DistributionFloatUniformCurve.h"
 #include "GameFramework/Pawn.h"
 #include "Ship.generated.h"
 
@@ -35,16 +34,24 @@ public:
 	float ScatterShotTime = 5;
 
 	UPROPERTY(EditAnywhere, Category = Bullet)
-	TSubclassOf<class ABulletController> Bullet;
+	TSubclassOf<class ABulletController> NormalBullet;
+	UPROPERTY(EditAnywhere, Category = Bullet)
+	TSubclassOf<class ABulletController> SineBullet;
+	UPROPERTY(VisibleAnywhere, Category=Bullet)
+	bool bActivateSineMovement=false;
+	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Gameplay)
 	bool bIsDead = false;
+	
+	
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PowerUps)
 	bool bIsShieldActivated = false;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PowerUps)
 	bool bIsScatterShotActivated = false;
-	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PowerUps)
 	float ScatterShotFireRate=.5f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PowerUps)
 	int ShieldHP=1;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=VFX)
@@ -82,6 +89,7 @@ public:
 	UFUNCTION(BlueprintNativeEvent)
 	void HitShield();
 	void HitShield_Implementation();
+	
 	
 	virtual void BeginDestroy() override;
 	

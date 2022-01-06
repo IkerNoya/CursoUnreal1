@@ -34,7 +34,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PowerUps)
 	float ScatterShotFireRate=.5f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PowerUps)
-	int ShieldHP=2;
+	int ShieldHP=1;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PowerUps)
+	bool bActivateSineMovement=false;
 	
 
 
