@@ -8,10 +8,10 @@
 #include "PowerUpBase.generated.h"
 
 
-UENUM()
-enum  class ETypes
+UENUM(BlueprintType)
+enum class ETypes : uint8
 {
-	ScatterBlast, Shield
+	None, ScatterBlast, Shield
 };
 
 UCLASS()
@@ -22,15 +22,17 @@ class PRIMERCURSO_API APowerUpBase : public AActor
 public:	
 	// Sets default values for this actor's properties
 	APowerUpBase();
-	//ShereCOll
-	//Mesh
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Mesh)
+	UStaticMeshComponent* Mesh;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = PowerUp)
 	ETypes PowerUpType;
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category=Mesh)
-	UStaticMesh* Mesh;
+	
 	UPROPERTY(EditAnywhere, Category = Collision)
 	USphereComponent* SphereCollider;
 
+
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

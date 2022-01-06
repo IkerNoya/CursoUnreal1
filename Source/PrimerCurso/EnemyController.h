@@ -21,7 +21,7 @@ public:
 	float Speed = 800.0f;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Gameplay)
-	bool IsDead	= false;
+	bool bIsDead = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = VFX)
 	UParticleSystem* Explosion;
@@ -38,6 +38,8 @@ public:
 
 	UFUNCTION()
 	void OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
-	
+
+	void DestroyEnemy();
+
 
 };

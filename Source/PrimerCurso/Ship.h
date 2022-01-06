@@ -18,8 +18,10 @@ public:
 	// Sets default values for this pawn's properties
 	AShip();
 
-	UPROPERTY(EditAnywhere, Category = General)
+	UPROPERTY(EditAnywhere,BlueprintReadWrite, Category = General)
 	UShapeComponent* CollisionBox;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Mesh)
+	UStaticMeshComponent* Shield;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement)
 	UPawnMovementComponent* PawnMovementComponent;
@@ -27,10 +29,20 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	float FireRate= 0.5f;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PowerUps)
+	float ScatterShotTime = 5;
+
 	UPROPERTY(EditAnywhere, Category = Bullet)
 	TSubclassOf<class ABulletController> Bullet;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Gameplay)
-	bool IsDead = false;
+	bool bIsDead = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PowerUps)
+	bool bIsShieldActivated = false;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PowerUps)
+	bool bIsScatterShotActivated = false;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=VFX)
+	UParticleSystem* PickUpParticles;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -38,6 +50,7 @@ protected:
 	virtual void PostInitializeComponents() override;
 
 	FTimerHandle FireTimer;
+	FTimerHandle ScatterShotTimer;
 
 public:	
 	// Called every frame
@@ -55,7 +68,15 @@ public:
 	
 	UFUNCTION()
 	void OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
-
+	
+	void ActivateShield();
+	void DeactivateShield();
+	void ActivateScatterShot();
+	void SetScatterShot();
+	
+	
+	virtual void BeginDestroy() override;
+	
 private:
 	FVector BulletSpawnOffset;
 };

@@ -8,6 +8,7 @@
 #include "../../Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/types/Void.h"
 #include "GameFramework/GameMode.h"
 #include "TopDownShooterGameMode.generated.h"
+class APowerUpBase;
 
 /**
  * 
@@ -25,7 +26,7 @@ class PRIMERCURSO_API ATopDownShooterGameMode : public AGameMode
 	FTimerHandle DifficultyTimer;
 public:
 	UPROPERTY(EditAnywhere, Category = Spawn)
-	TSubclassOf<class AEnemyController>Enemies;
+	TSubclassOf<AEnemyController>Enemies;
 
 	float EnemyTimer;
 	float GameTimer;
@@ -45,6 +46,8 @@ protected:
 	float TimeToSpawnEnemies = 2;
 	UPROPERTY(EditAnywhere, Category=Gameplay)
 	float TimeToIncreaseDifficulty=30;
+	UPROPERTY(EditAnywhere, Category = Gameplay)
+	TArray<TSubclassOf<APowerUpBase>> PowerUps;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
 	int ScorePerKill = 100;
@@ -62,6 +65,6 @@ public:
 	void AddScore();
 	void GameOver();
 	void SpawnEnemy();
-	void InreaseDifficulty();
-	
+	void IncreaseDifficulty();
+	void DecidePowerUpSpawn(FVector Location);
 }; 

@@ -2,6 +2,8 @@
 
 
 #include "TopDownShooterGameMode.h"
+#include "PowerUpBase.h"
+
 
 void ATopDownShooterGameMode::BeginPlay()
 {
@@ -17,7 +19,7 @@ void ATopDownShooterGameMode::BeginPlay()
 	if(World)
 	{
 		World->GetTimerManager().SetTimer(EnemySpawnTimer, this, &ATopDownShooterGameMode::SpawnEnemy, 1.5f, true, 2);
-		World->GetTimerManager().SetTimer(DifficultyTimer, this, &ATopDownShooterGameMode::InreaseDifficulty, TimeToIncreaseDifficulty, true, TimeToIncreaseDifficulty);
+		World->GetTimerManager().SetTimer(DifficultyTimer, this, &ATopDownShooterGameMode::IncreaseDifficulty, TimeToIncreaseDifficulty, true, TimeToIncreaseDifficulty);
 	}
 }
 
@@ -58,6 +60,7 @@ void ATopDownShooterGameMode::AddScore()
 {
 	Score += ScorePerKill;
 	UGameWidget* Hud = Cast<UGameWidget>(CurrentWidget); // Casteo de Unreal
+	
 	if (Hud)
 	{
 		Hud->SetScore_Implementation(Score);
@@ -79,7 +82,7 @@ void ATopDownShooterGameMode::SpawnEnemy()
 	}
 }
 
-void ATopDownShooterGameMode::InreaseDifficulty()
+void ATopDownShooterGameMode::IncreaseDifficulty()
 {
 	if(TimeToSpawnEnemies>0.5)
 	{
@@ -91,6 +94,17 @@ void ATopDownShooterGameMode::InreaseDifficulty()
 		}
 	}
 	
+}
+
+void ATopDownShooterGameMode::DecidePowerUpSpawn(FVector Location)
+{
+	int32 PowerUpsAmmount = PowerUps.Num();
+	int32 SelectedPowerUp = FMath::RandRange(0, PowerUpsAmmount);
+	UWorld* World = GetWorld();
+	if(SelectedPowerUp<PowerUpsAmmount && World)
+	{
+		World->SpawnActor<APowerUpBase>(PowerUps[SelectedPowerUp], Location, FRotator::ZeroRotator);
+	}
 }
 
 

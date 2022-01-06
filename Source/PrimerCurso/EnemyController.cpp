@@ -6,10 +6,7 @@
 #include "BulletController.h"
 #include "TopDownShooterGameMode.h"
 #include "BehaviorTree/BehaviorTreeTypes.h"
-#include "Kismet/GameplayStatics.h"
-#include "Particles/ParticleEmitter.h"
-#include "Particles/ParticleSystem.h"
-#include "Particles/ParticleSystemComponent.h"
+
 
 // Sets default values
 AEnemyController::AEnemyController()
@@ -52,15 +49,23 @@ void AEnemyController::Tick(float DeltaTime)
 
 void AEnemyController::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	if(OtherActor->IsA(ABulletController::StaticClass()) && !IsDead)
+	if(OtherActor->IsA(ABulletController::StaticClass()) && !bIsDead)
 	{
-		IsDead=true;
+		DestroyEnemy();
 		OtherActor->Destroy();
-		ATopDownShooterGameMode* GameMode = Cast<ATopDownShooterGameMode>(GetWorld()->GetAuthGameMode());
-		if(GameMode)
-		{
-			GameMode->AddScore();
-		}
 	}
 }
+
+void AEnemyController::DestroyEnemy()
+{
+	bIsDead=true;
+	ATopDownShooterGameMode* GameMode = Cast<ATopDownShooterGameMode>(GetWorld()->GetAuthGameMode());
+	if(GameMode)
+	{
+		GameMode->AddScore();
+		GameMode->DecidePowerUpSpawn(GetActorLocation());
+	}
+}
+
+
 

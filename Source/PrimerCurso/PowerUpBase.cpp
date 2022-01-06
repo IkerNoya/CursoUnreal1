@@ -10,7 +10,8 @@ APowerUpBase::APowerUpBase()
 	PrimaryActorTick.bCanEverTick = true;
 	SphereCollider = CreateDefaultSubobject<USphereComponent>(TEXT("SphereCollider"));
 	SetRootComponent(SphereCollider);
-	Mesh = CreateDefaultSubobject<UStaticMesh>(TEXT("Mesh"));
+	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PowerUp Mesh"));
+	Mesh->SetupAttachment(SphereCollider);
 	
 }
 
@@ -25,6 +26,6 @@ void APowerUpBase::BeginPlay()
 void APowerUpBase::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
+
 
