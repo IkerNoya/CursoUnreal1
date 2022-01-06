@@ -31,6 +31,12 @@ public:
 	UPROPERTY(EditAnywhere, Category = Collision)
 	USphereComponent* SphereCollider;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PowerUps)
+	float ScatterShotFireRate=.5f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PowerUps)
+	int ShieldHP=2;
+	
+
 
 	
 protected:

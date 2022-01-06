@@ -3,6 +3,8 @@
 
 #include "Ship.h"
 
+#include <ThirdParty/CryptoPP/5.6.5/include/fips140.h>
+
 #include "BulletController.h"
 #include "EnemyController.h"
 #include "PowerUpBase.h"
@@ -38,6 +40,7 @@ void AShip::BeginPlay()
 	Shield->SetVisibility(false);
 
 	BulletSpawnOffset = GetActorForwardVector() * 150;
+	CurrentFireRate = FireRate;
 }
 
 void AShip::PostInitializeComponents() // delegates dinamicos relacionados con componentes van aca
@@ -84,7 +87,7 @@ void AShip::MoveForward(float Value)
 void AShip::StartFire()
 {
 	Fire(); //                              parametro siguiente: Delay
-	GetWorld()->GetTimerManager().SetTimer(FireTimer, this, &AShip::Fire, FireRate, true);
+	GetWorld()->GetTimerManager().SetTimer(FireTimer, this, &AShip::Fire, CurrentFireRate, true);
 }
 
 void AShip::Fire()
@@ -139,11 +142,23 @@ void AShip::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherAct
 		}
 		else
 		{
-			DeactivateShield();
 			AEnemyController* Enemy = Cast<AEnemyController>(OtherActor);
-			if (Enemy)
+			if(ShieldHP>1)
 			{
-				Enemy->DestroyEnemy();
+				if (Enemy)
+				{
+					Enemy->DestroyEnemy();
+				}
+				ShieldHP--;
+				HitShield();
+			}
+			else
+			{
+				DeactivateShield();
+				if (Enemy)
+				{
+					Enemy->DestroyEnemy();
+				}
 			}
 		}
 	}
@@ -159,9 +174,13 @@ void AShip::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherAct
 				break;
 			case ETypes::ScatterBlast:
 				ActivateScatterShot();
+				CurrentFireRate=PowerUp->ScatterShotFireRate;
 				break;
 			case ETypes::Shield:
 				ActivateShield();
+				ShieldHP = PowerUp->ShieldHP;
+				UE_LOG(LogTemp, Warning, TEXT("HP: %d"),ShieldHP);
+
 				break;
 			default:
 				break;
@@ -196,12 +215,25 @@ void AShip::ActivateScatterShot()
 void AShip::SetScatterShot()
 {
 	bIsScatterShotActivated = !bIsScatterShotActivated;
+	if(!bIsScatterShotActivated)
+	{
+		CurrentFireRate = FireRate;
+	}
 }
 
 
+void AShip::HitShield_Implementation()
+{
+	
+}
+
 void AShip::BeginDestroy()
 {
+	UWorld* World = GetWorld();
+	if(World)
+	{
+		GetWorld()->GetTimerManager().ClearTimer(FireTimer);
+		GetWorld()->GetTimerManager().ClearTimer(ScatterShotTimer);
+	}
 	Super::BeginDestroy();
-	// GetWorld()->GetTimerManager().ClearTimer(FireTimer);
-	// GetWorld()->GetTimerManager().ClearTimer(ScatterShotTimer);
 }

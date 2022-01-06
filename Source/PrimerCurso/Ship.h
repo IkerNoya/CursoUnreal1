@@ -29,6 +29,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	float FireRate= 0.5f;
 
+	float CurrentFireRate;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PowerUps)
 	float ScatterShotTime = 5;
 
@@ -41,6 +43,10 @@ public:
 	bool bIsShieldActivated = false;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PowerUps)
 	bool bIsScatterShotActivated = false;
+	
+	float ScatterShotFireRate=.5f;
+	int ShieldHP=1;
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=VFX)
 	UParticleSystem* PickUpParticles;
 protected:
@@ -73,7 +79,10 @@ public:
 	void DeactivateShield();
 	void ActivateScatterShot();
 	void SetScatterShot();
-	
+
+	UFUNCTION(BlueprintNativeEvent)
+	void HitShield();
+	void HitShield_Implementation();
 	
 	virtual void BeginDestroy() override;
 	

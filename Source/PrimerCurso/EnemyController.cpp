@@ -55,16 +55,17 @@ void AEnemyController::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActo
 		OtherActor->Destroy();
 	}
 }
-
 void AEnemyController::DestroyEnemy()
 {
 	bIsDead=true;
 	ATopDownShooterGameMode* GameMode = Cast<ATopDownShooterGameMode>(GetWorld()->GetAuthGameMode());
+	UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), Explosion, GetActorLocation(), FRotator::ZeroRotator, FVector(2,2,2), true);
 	if(GameMode)
 	{
 		GameMode->AddScore();
 		GameMode->DecidePowerUpSpawn(GetActorLocation());
 	}
+	Destroy();
 }
 
 
