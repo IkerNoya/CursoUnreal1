@@ -16,7 +16,7 @@ class PRIMERCURSO_API AShipController : public APlayerController
 	bool bHasInitializedInputComponent=false;
 public:
 	virtual void SetupInputComponent() override;
-	
 	void MoveRight(float Value);
 	void MoveForward(float Value);
+	void OnResetPressed();
 };

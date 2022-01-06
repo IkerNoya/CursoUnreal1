@@ -8,6 +8,7 @@
 #include "BulletController.h"
 #include "EnemyController.h"
 #include "PowerUpBase.h"
+#include "ShipController.h"
 #include "TopDownShooterGameMode.h"
 #include "Components/BoxComponent.h"
 #include "Components/ShapeComponent.h"
@@ -59,30 +60,29 @@ void AShip::Tick(float DeltaTime)
 void AShip::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-	PlayerInputComponent->BindAxis("Right", this, &AShip::MoveRight);
-	PlayerInputComponent->BindAxis("Forward", this, &AShip::MoveForward);
+	// PlayerInputComponent->BindAxis("Right", this, &AShip::MoveRight);
+	// PlayerInputComponent->BindAxis("Forward", this, &AShip::MoveForward);
 
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AShip::StartFire);
 	PlayerInputComponent->BindAction("Fire", IE_Released, this, &AShip::EndFire);
 
-	PlayerInputComponent->BindAction("Reset", IE_Pressed, this, &AShip::OnResetPressed).bExecuteWhenPaused = true;
 }
 
-void AShip::MoveRight(float Value)
-{
-	if (Value)
-	{
-		AddMovementInput(GetActorRightVector(), Value);
-	}
-}
-
-void AShip::MoveForward(float Value)
-{
-	if (Value)
-	{
-		AddMovementInput(GetActorForwardVector(), Value);
-	}
-}
+// void AShip::MoveRight(float Value)
+// {
+// 	if (Value)
+// 	{
+// 		AddMovementInput(GetActorRightVector(), Value);
+// 	}
+// }
+//
+// void AShip::MoveForward(float Value)
+// {
+// 	if (Value)
+// 	{
+// 		AddMovementInput(GetActorForwardVector(), Value);
+// 	}
+// }
 
 void AShip::StartFire()
 {
@@ -113,13 +113,6 @@ void AShip::EndFire()
 	GetWorld()->GetTimerManager().ClearTimer(FireTimer);
 }
 
-void AShip::OnResetPressed()
-{
-	if (bIsDead)
-	{
-		UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), false);
-	}
-}
 
 void AShip::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent,
                       int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
@@ -130,6 +123,7 @@ void AShip::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherAct
 		{
 			bIsDead = true;
 			UWorld* World = GetWorld();
+			UGameplayStatics::SpawnEmitterAtLocation(World, Explosion, GetActorLocation(), FRotator::ZeroRotator, FVector(5,5,5), true);
 			if (World)
 			{
 				ATopDownShooterGameMode* GameMode = Cast<ATopDownShooterGameMode>(World->GetAuthGameMode());
@@ -137,8 +131,8 @@ void AShip::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherAct
 				{
 					GameMode->GameOver();
 				}
-				World->GetTimerManager().ClearTimer(FireTimer);
 			}
+			Destroy();
 		}
 		else
 		{
