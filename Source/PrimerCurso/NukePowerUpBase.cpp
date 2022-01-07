@@ -16,7 +16,7 @@ void ANukePowerUpBase::ActivatePowerUp(AShip* Player)
 		if(Enemy)
 		{
 			AEnemyController* EnemyController = Cast<AEnemyController>(Enemy);
-			if(EnemyController && !EnemyController->bIsInmuneToNuke)
+			if(EnemyController && EnemyController->WasRecentlyRendered(.1f) && !EnemyController->bIsInmuneToNuke)
 			{
 				EnemyController->DestroyEnemy();		
 			}
