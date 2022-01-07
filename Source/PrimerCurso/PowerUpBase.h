@@ -16,7 +16,7 @@ enum class ETypes : uint8
 	None, ScatterBlast, Shield, Nuke
 };
 UCLASS(Abstract)
-class PRIMERCURSO_API APowerUpBase : public AActor
+class PRIMERCURSO_API APowerUpBase : public AActor // Si tienen Base, Son abstactas
 {
 	GENERATED_BODY()
 	
@@ -46,6 +46,7 @@ protected:
 	virtual void BeginPlay() override;
 	virtual void PostInitializeComponents() override;
 	virtual void ActivatePowerUp(AShip* Player);
+	virtual void BeginDestroy() override;
 
 public:	
 	// Called every frame

@@ -30,41 +30,38 @@ public:
 
 	float EnemyTimer;
 	float GameTimer;
-	
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Gameplay)
 	int Score;
-	
+
 protected:
-		
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = UI)
-	TSubclassOf<UUserWidget>StartingWidgetClass;
+	TSubclassOf<UUserWidget> StartingWidgetClass;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = UI)
-	TSubclassOf<UUserWidget>GameOverWidget;
+	TSubclassOf<UUserWidget> GameOverWidget;
 	UPROPERTY()
 	UUserWidget* CurrentWidget;
 	UPROPERTY(EditAnywhere, Category=Gameplay)
 	float TimeToSpawnEnemies = 2;
 	UPROPERTY(EditAnywhere, Category=Gameplay)
-	float TimeToIncreaseDifficulty=30;
+	float TimeToIncreaseDifficulty = 30;
 	UPROPERTY(EditAnywhere, Category = Gameplay)
 	TArray<TSubclassOf<APowerUpBase>> PowerUps;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
 	int ScorePerKill = 100;
-	
 
+	virtual void BeginDestroy() override;
 public:
-
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaSeconds) override;
-	virtual void Destroyed() override;
 
 	UFUNCTION(BlueprintCallable, Category = UI)
 	void ChangeWidget(TSubclassOf<UUserWidget> NewWidgetClass);
-	
+
 	void AddScore();
 	void GameOver();
 	void SpawnEnemy();
 	void IncreaseDifficulty();
 	void DecidePowerUpSpawn(FVector Location);
-}; 
+};

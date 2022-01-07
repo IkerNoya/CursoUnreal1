@@ -6,7 +6,7 @@
 #include "Ship.h"
 
 
-void AShieldPowerUpBase::ActivatePowerUp(AShip* Player)
+void AShieldPowerUpBase::ActivatePowerUp(AShip* Player) // Falta modular mas las clases
 {
 	Super::ActivatePowerUp(Player);
 	Player->ActivateShield();

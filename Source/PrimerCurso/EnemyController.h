@@ -8,7 +8,7 @@
 #include "EnemyController.generated.h"
 
 UCLASS()
-class PRIMERCURSO_API AEnemyController : public AActor
+class PRIMERCURSO_API AEnemyController : public AActor // Nombre de mierda, cambiar a algo ocn sentido
 {
 	GENERATED_BODY()
 	

@@ -23,7 +23,6 @@ APowerUpBase::APowerUpBase()
 void APowerUpBase::BeginPlay()
 {
 	Super::BeginPlay();
-	SphereCollider->OnComponentBeginOverlap.AddDynamic(this, &APowerUpBase::OnOverlap);
 	GetWorld()->GetTimerManager().SetTimer(TimerToDestroy, this, &APowerUpBase::DestroyPowerUp, TimeToDestroy, false);
 	
 }
@@ -31,11 +30,23 @@ void APowerUpBase::BeginPlay()
 void APowerUpBase::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
+	SphereCollider->OnComponentBeginOverlap.AddDynamic(this, &APowerUpBase::OnOverlap);
 
 }
 
 void APowerUpBase::ActivatePowerUp(AShip* Player)
 {
+}
+
+void APowerUpBase::BeginDestroy()
+{
+	UWorld* World = GetWorld();
+	if(World)
+	{
+		World->GetTimerManager().ClearTimer(TimerToDestroy);
+	}
+	Super::BeginDestroy();
+	
 }
 
 // Called every frame
@@ -53,7 +64,6 @@ void APowerUpBase::DestroyPowerUp()
 void APowerUpBase::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
                              UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	UE_LOG(LogTemp, Warning, TEXT("COLISIONO"));
 
 	if(OtherActor->IsA(AShip::StaticClass()))
 	{

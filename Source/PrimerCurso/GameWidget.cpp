@@ -3,7 +3,11 @@
 
 #include "GameWidget.h"
 
-#include "../../Plugins/Developer/RiderLink/Source/RD/thirdparty/spdlog/include/spdlog/fmt/bundled/format.h"
+/*
+ * Binds a c++ para UI simple
+ * Creacion de todo desde c++ para UI compleja
+ */
+
 
 void UGameWidget::Load()
 {

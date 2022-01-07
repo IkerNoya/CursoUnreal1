@@ -5,6 +5,17 @@
 #include "PowerUpBase.h"
 
 
+void ATopDownShooterGameMode::BeginDestroy()
+{
+	UWorld* World = GetWorld();
+	if(World)
+	{
+		World->GetTimerManager().ClearTimer(EnemySpawnTimer);
+		World->GetTimerManager().ClearTimer(DifficultyTimer);
+	}
+	Super::BeginDestroy();
+}
+
 void ATopDownShooterGameMode::BeginPlay()
 {
 	Super::BeginPlay();
@@ -26,17 +37,6 @@ void ATopDownShooterGameMode::BeginPlay()
 void ATopDownShooterGameMode::Tick(float DeltaSeconds)
 {
 	Super::Tick(DeltaSeconds);
-}
-
-void ATopDownShooterGameMode::Destroyed()
-{
-	Super::Destroyed();
-	UWorld* World = GetWorld();
-	if(World)
-	{
-		World->GetTimerManager().ClearTimer(EnemySpawnTimer);
-		World->GetTimerManager().ClearTimer(DifficultyTimer);
-	}
 }
 
 void ATopDownShooterGameMode::ChangeWidget(TSubclassOf<UUserWidget> NewWidgetClass)
