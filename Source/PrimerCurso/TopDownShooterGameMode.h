@@ -5,7 +5,6 @@
 #include "CoreMinimal.h"
 #include "EnemyController.h"
 #include "GameWidget.h"
-#include "../../Plugins/Developer/RiderLink/Source/RD/src/rd_core_cpp/src/main/types/Void.h"
 #include "GameFramework/GameMode.h"
 #include "TopDownShooterGameMode.generated.h"
 class APowerUpBase;
@@ -18,9 +17,6 @@ class PRIMERCURSO_API ATopDownShooterGameMode : public AGameMode
 {
 	GENERATED_BODY()
 
-	float MinimumTimeToSpawn = .4f;
-	float MaxTimeToSpawn = 2.5f;
-	float TimeToMaxDifficulty = 60.0f;
 
 	FTimerHandle EnemySpawnTimer;
 	FTimerHandle DifficultyTimer;
@@ -28,8 +24,7 @@ public:
 	UPROPERTY(EditAnywhere, Category = Spawn)
 	TArray<TSubclassOf<AEnemyController>> Enemies;
 
-	float EnemyTimer;
-	float GameTimer;
+
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Gameplay)
 	int Score;

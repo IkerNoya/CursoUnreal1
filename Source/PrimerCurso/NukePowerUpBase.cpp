@@ -9,7 +9,7 @@
 void ANukePowerUpBase::ActivatePowerUp(AShip* Player)
 {
 	Super::ActivatePowerUp(Player);
-	TArray<AActor*> Enemies;
+	TArray<AActor*> Enemies; // En vez de buscar todo, guardar los enemigos creados y bucarlos desde la cache 
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AEnemyController::StaticClass(), Enemies);
 	for (auto Enemy : Enemies)
 	{
@@ -21,6 +21,5 @@ void ANukePowerUpBase::ActivatePowerUp(AShip* Player)
 				EnemyController->DestroyEnemy();		
 			}
 		}
-		
 	}
 }

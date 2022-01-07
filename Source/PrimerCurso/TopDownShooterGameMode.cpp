@@ -41,12 +41,12 @@ void ATopDownShooterGameMode::Tick(float DeltaSeconds)
 
 void ATopDownShooterGameMode::ChangeWidget(TSubclassOf<UUserWidget> NewWidgetClass)
 {
-	if (CurrentWidget != nullptr)
+	if (CurrentWidget)
 	{
 		CurrentWidget->RemoveFromViewport();
 		CurrentWidget = nullptr;
 	}
-	if (NewWidgetClass != nullptr)
+	if (!NewWidgetClass)
 	{
 		CurrentWidget = CreateWidget<UUserWidget>(GetWorld(), NewWidgetClass);
 		if (CurrentWidget)

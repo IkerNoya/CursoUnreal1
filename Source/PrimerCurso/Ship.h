@@ -53,9 +53,7 @@ public:
 	float ScatterShotFireRate=.5f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PowerUps)
 	int ShieldHP=1;
-	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=VFX)
-	UParticleSystem* PickUpParticles;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=VFX)
 	UParticleSystem* Explosion;
 protected:
