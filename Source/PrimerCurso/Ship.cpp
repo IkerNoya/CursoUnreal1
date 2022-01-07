@@ -3,12 +3,10 @@
 
 #include "Ship.h"
 
-#include <ThirdParty/CryptoPP/5.6.5/include/fips140.h>
 
 #include "BulletController.h"
 #include "EnemyController.h"
-#include "PowerUpBase.h"
-#include "ShipController.h"
+#include "ToolBuilderUtil.h"
 #include "TopDownShooterGameMode.h"
 #include "Components/BoxComponent.h"
 #include "Components/ShapeComponent.h"
@@ -60,8 +58,6 @@ void AShip::Tick(float DeltaTime)
 void AShip::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-	// PlayerInputComponent->BindAxis("Right", this, &AShip::MoveRight);
-	// PlayerInputComponent->BindAxis("Forward", this, &AShip::MoveForward);
 
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AShip::StartFire);
 	PlayerInputComponent->BindAction("Fire", IE_Released, this, &AShip::EndFire);
@@ -81,9 +77,9 @@ void AShip::Fire()
 	{
 		if (bIsScatterShotActivated)
 		{
-			World->SpawnActor<ABulletController>(SineBullet, GetActorLocation() + BulletSpawnOffset, FRotator::ZeroRotator);
-			World->SpawnActor<ABulletController>(SineBullet, GetActorLocation() + BulletSpawnOffset + FVector(-50,70,0), FRotator::ZeroRotator);
-			World->SpawnActor<ABulletController>(SineBullet, GetActorLocation() + BulletSpawnOffset + FVector(-50,-70,0), FRotator::ZeroRotator);
+			World->SpawnActor<ABulletController>(NormalBullet, GetActorLocation() + BulletSpawnOffset, FRotator::ZeroRotator);
+			World->SpawnActor<ABulletController>(NormalBullet, GetActorLocation() + BulletSpawnOffset + FVector(50,70,0), FRotator::ZeroRotator);
+			World->SpawnActor<ABulletController>(NormalBullet, GetActorLocation() + BulletSpawnOffset + FVector(50,-70,0), FRotator::ZeroRotator);
 		}
 		else
 		{
@@ -139,32 +135,6 @@ void AShip::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherAct
 				}
 			}
 		}
-	}
-	else if (OtherActor->IsA(APowerUpBase::StaticClass()) && !bIsDead)
-	{
-		APowerUpBase* PowerUp = Cast<APowerUpBase>(OtherActor);
-
-		if (PowerUp)
-		{
-			switch (PowerUp->PowerUpType)
-			{
-			case ETypes::None:
-				break;
-			case ETypes::ScatterBlast:
-				ActivateScatterShot();
-				bActivateSineMovement = PowerUp->bActivateSineMovement;
-				CurrentFireRate = PowerUp->ScatterShotFireRate;
-				break;
-			case ETypes::Shield:
-				ActivateShield();
-				ShieldHP = PowerUp->ShieldHP;
-				break;
-			default:
-				break;
-			}
-		}
-		OtherActor->Destroy();
-		
 	}
 }
 

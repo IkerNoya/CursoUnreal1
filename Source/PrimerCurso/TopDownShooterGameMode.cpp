@@ -77,8 +77,9 @@ void ATopDownShooterGameMode::SpawnEnemy()
 	UWorld* World = GetWorld();
 	if (World)
 	{
+		int EnemySelection = FMath::RandRange(0, Enemies.Num()-1);
 		FVector SpawnPoint = FVector(FMath::RandRange(4000, 5000), FMath::RandRange(-700, 700), 380);
-		World->SpawnActor<AEnemyController>(Enemies, SpawnPoint, FRotator::ZeroRotator);
+		World->SpawnActor<AEnemyController>(Enemies[EnemySelection], SpawnPoint, FRotator::ZeroRotator);
 	}
 }
 

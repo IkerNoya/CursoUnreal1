@@ -16,6 +16,7 @@ AEnemyController::AEnemyController()
 
 	BoxCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("Box Collider"));
 	BoxCollider->SetGenerateOverlapEvents(true);
+	Direction= -GetActorForwardVector();
 
 }
 
@@ -36,7 +37,6 @@ void AEnemyController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	FVector NextPos = GetActorLocation();
-	FVector Direction = -GetActorForwardVector();
 	NextPos += (Direction * Speed * DeltaTime);
 	SetActorLocation(NextPos);
 

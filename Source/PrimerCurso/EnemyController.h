@@ -19,9 +19,13 @@ public:
 	UBoxComponent* BoxCollider;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Movement)
 	float Speed = 800.0f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Movement)
+	FVector Direction;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Gameplay)
 	bool bIsDead = false;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	bool bIsInmuneToNuke = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = VFX)
 	UParticleSystem* Explosion;

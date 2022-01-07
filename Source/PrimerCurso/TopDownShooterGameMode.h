@@ -26,7 +26,7 @@ class PRIMERCURSO_API ATopDownShooterGameMode : public AGameMode
 	FTimerHandle DifficultyTimer;
 public:
 	UPROPERTY(EditAnywhere, Category = Spawn)
-	TSubclassOf<AEnemyController>Enemies;
+	TArray<TSubclassOf<AEnemyController>> Enemies;
 
 	float EnemyTimer;
 	float GameTimer;

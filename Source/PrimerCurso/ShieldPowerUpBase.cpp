@@ -3,3 +3,12 @@
 
 #include "ShieldPowerUpBase.h"
 
+#include "Ship.h"
+
+
+void AShieldPowerUpBase::ActivatePowerUp(AShip* Player)
+{
+	Super::ActivatePowerUp(Player);
+	Player->ActivateShield();
+	Player->ShieldHP=Hp;
+}

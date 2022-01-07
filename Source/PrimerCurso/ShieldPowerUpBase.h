@@ -13,5 +13,8 @@ UCLASS()
 class PRIMERCURSO_API AShieldPowerUpBase : public APowerUpBase
 {
 	GENERATED_BODY()
-	
+protected:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Data)
+	int Hp=1;
+	virtual void ActivatePowerUp(AShip* Player) override;
 };

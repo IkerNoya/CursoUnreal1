@@ -3,6 +3,9 @@
 
 #include "PowerUpBase.h"
 
+#include "Kismet/GameplayStatics.h"
+#include "Ship.h"
+
 // Sets default values
 APowerUpBase::APowerUpBase()
 {
@@ -10,15 +13,29 @@ APowerUpBase::APowerUpBase()
 	PrimaryActorTick.bCanEverTick = true;
 	SphereCollider = CreateDefaultSubobject<USphereComponent>(TEXT("SphereCollider"));
 	SetRootComponent(SphereCollider);
+	SphereCollider->SetGenerateOverlapEvents(true);
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PowerUp Mesh"));
 	Mesh->SetupAttachment(SphereCollider);
-	
+
 }
 
 // Called when the game starts or when spawned
 void APowerUpBase::BeginPlay()
 {
 	Super::BeginPlay();
+	SphereCollider->OnComponentBeginOverlap.AddDynamic(this, &APowerUpBase::OnOverlap);
+	GetWorld()->GetTimerManager().SetTimer(TimerToDestroy, this, &APowerUpBase::DestroyPowerUp, TimeToDestroy, false);
+	
+}
+
+void APowerUpBase::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
+
+}
+
+void APowerUpBase::ActivatePowerUp(AShip* Player)
+{
 }
 
 // Called every frame
@@ -26,5 +43,30 @@ void APowerUpBase::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 }
+
+void APowerUpBase::DestroyPowerUp()
+{
+	GetWorld()->GetTimerManager().ClearTimer(TimerToDestroy);
+	Destroy();
+}
+
+void APowerUpBase::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
+                             UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	UE_LOG(LogTemp, Warning, TEXT("COLISIONO"));
+
+	if(OtherActor->IsA(AShip::StaticClass()))
+	{
+
+		AShip* Player = Cast<AShip>(OtherActor);
+		if(Player)
+		{
+			ActivatePowerUp(Player);
+		}
+		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), PickUpParticle, GetActorLocation(), FRotator::ZeroRotator, FVector::OneVector, true);
+		Destroy();
+	}
+}
+
 
 

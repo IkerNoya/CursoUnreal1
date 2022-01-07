@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "Components/SphereComponent.h"
+
+#include "Ship.h"
 #include "GameFramework/Actor.h"
 #include "PowerUpBase.generated.h"
 
@@ -11,10 +13,9 @@
 UENUM(BlueprintType)
 enum class ETypes : uint8
 {
-	None, ScatterBlast, Shield
+	None, ScatterBlast, Shield, Nuke
 };
-
-UCLASS()
+UCLASS(Abstract)
 class PRIMERCURSO_API APowerUpBase : public AActor
 {
 	GENERATED_BODY()
@@ -30,23 +31,28 @@ public:
 	
 	UPROPERTY(EditAnywhere, Category = Collision)
 	USphereComponent* SphereCollider;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PowerUps)
-	float ScatterShotFireRate=.5f;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PowerUps)
-	int ShieldHP=1;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=PowerUps)
-	bool bActivateSineMovement=false;
 	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = VFX)
+	UParticleSystem* PickUpParticle;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	float TimeToDestroy = 5;
+
+	FTimerHandle TimerToDestroy;
 
 	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	virtual void PostInitializeComponents() override;
+	virtual void ActivatePowerUp(AShip* Player);
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	void DestroyPowerUp();
+	
+	UFUNCTION() // NO OLVIDARSE NUNCA MAS
+	void OnOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 };
