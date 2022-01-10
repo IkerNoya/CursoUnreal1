@@ -2,6 +2,7 @@
 
 
 #include "ShipController.h"
+#include "Ship.h"
 
 #include "Kismet/GameplayStatics.h"
 
